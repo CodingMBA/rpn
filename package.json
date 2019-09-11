@@ -1,0 +1,33 @@
+{
+  "name": "rpn",
+  "version": "0.0.1",
+  "description": "Multi-platform app for Royal Palm Nanny built with the Quasar framework.",
+  "productName": "RPN App",
+  "cordovaId": "org.cordova.rpn.app",
+  "author": "Andrew Smith <codingmba@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "quasar": "^1.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
