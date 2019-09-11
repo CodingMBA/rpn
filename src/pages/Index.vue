@@ -1,14 +1,18 @@
 <template>
-  <q-page class="flex flex-center">
-    
+  <q-page class="q-pa-md">
+    <div>Find a Nanny</div>
   </q-page>
 </template>
 
-<style>
-</style>
-
 <script>
 export default {
-  name: 'PageIndex'
-}
+  data() {
+    return {
+      
+    };
+  }
+};
 </script>
+
+<style></style>
+
